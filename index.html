@@ -1,56 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Elementos de agrupacion</title>
-</head>
-<body>
-<main>
-    <article>
+  </head>
+  <body>
+    <main>
+      <article>
+        <p>
+          <span style="background-color: brown">Lorem</span> ipsum, dolor sit
+          amet consectetur adipisicing elit. Asperiores iusto consectetur
+          impedit hic non doloremque reiciendis. <br />
+          <mark
+            >Te recomiendo el libro: <cite>La historia de monterrey</cite> de
+            Jose Novoa</mark
+          >
+          suscipit unde eveniet nam laudantium expedita libero tempore ab
+          recusandae dolorem, quas molestiae quidem!
+        </p>
+        <p>La clase de FDW es de <time>7:00</time> a<time> 8:40</time></p>
+        <p>El examen es para el <time datetime="2022-02-21  09:00">martes</time></p>
         <!-- Bloque para citas -->
         <blockquote cite="https://www.asciiart.eu/">
-        The ASCII art of this website has been created by many different artists and credit has been given where the artist is known.
-        If you use ASCII artwork from here, please do not remove the artists name/initials if they are present.
-    </blockquote>
+          The
+          <abbr title="American Standard Code for Information Interchange"
+            >ASCII</abbr
+          >
+          art of this <b>website</b> has been created by many different artists
+          and <i>credit</i> has been given where the artist is known. If you use
+          <abbr title="American Standard Code for Information Interchange"
+            >ASCII</abbr
+          >
+          <strong>artwork</strong> from here, please do not remove the
+          <em>artists</em> name/initials if they are present.
+        </blockquote>
         <!-- Contenedor generico -->
         <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, nobis!</p>
+          <p>
+            Lorem <sup>ipsum</sup> dolor sit amet
+            <sub>consectetur</sub> adipisicing elit. Laborum, nobis!
+          </p>
         </div>
 
         <!-- Lista de definiciones -->
         <h3>Equipos Liga mx</h3>
         <dl>
-            <dt>Tigres</dt>
-            <dt>Tigres de la UANL</dt>
-            <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni obcaecati alias accusamus modi incidunt laudantium unde? Culpa voluptate ipsam architecto illo aut nemo omnis explicabo!</dd>
-            <dt>Rayados</dt>
-            <dd>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum velit est necessitatibus? Ullam, eos rerum fuga sunt incidunt beatae unde voluptate eius ex similique necessitatibus?</dd>
+          <dt>Tigres</dt>
+          <dt>
+            Tigres de la
+            <abbr title="Universidad Autonoma de Nuevo Leon">UANL</abbr>
+          </dt>
+          <dd>
+            Lorem ipsum dolor sit amet consecsstetur adipisicing elit. Magni
+            obcaecati alias accusamus modi incidunt laudantium unde? Culpa
+            voluptate ipsam architecto illo aut nemo omnis explicabo!
+          </dd>
+          <dt>Rayados</dt>
+          <dd>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum
+            velit est necessitatibus? Ullam, eos rerum fuga sunt incidunt beatae
+            unde voluptate eius ex similique necessitatibus?
+          </dd>
         </dl>
-        
+
         <!-- Figura -->
         <figure>
-            <img width="250" src="tigre.png" alt="tigre descansando"/>
-            <figcaption>Figura 1. Tigre</figcaption>
+          <img width="250" src="tigre.png" alt="tigre descansando" />
+          <figcaption>Figura 1. Tigre</figcaption>
         </figure>
         <hr />
 
         <!-- Lista ordenada -->
         <ol>
-            <li>Python</li>
-            <li>Java</li>
-            <li>C</li>
+          <li>Python</li>
+          <li>Java</li>
+          <li>C</li>
         </ol>
         <!-- Lista desordenada -->
         <ul>
-            <li>Python</li>
-            <li>Java</li>
-            <li>C</li>
+          <li>Python</li>
+          <li>Java</li>
+          <li>C</li>
         </ul>
 
         <!-- Parrafo -->
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo aliquid maiores nostrum, praesentium laboriosam nobis!</p>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo aliquid
+          maiores nostrum, praesentium laboriosam nobis!
+        </p>
 
         <!-- Texto preformateado -->
         <pre>
@@ -68,16 +107,19 @@
       \  ``==' /                         \  `--'  /
        `-.__,-'       Vespa P-200 E       `-.__,-'
         </pre>
+      </article>
+    </main>
 
-
-    </article>
-</main>
-
-<!-- Pie -->
-<footer>
-    <address>
+    <!-- Pie -->
+    <footer>
+      <address>
         <p>Desarrollador: Jose Novoa</p>
-    </address>
-</footer>
-</body>
+      </address>
+      <small
+        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum illum,
+        facere sequi nostrum repudiandae sed suscipit veniam libero at
+        atque.</small
+      >
+    </footer>
+  </body>
 </html>
